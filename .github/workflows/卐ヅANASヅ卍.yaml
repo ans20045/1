@@ -43,6 +43,8 @@ jobs:
         Invoke-WebRequest https://raw.githubusercontent.com/ans2004/RDP/main/FILES/NGROK-US.bat -OutFile NGROK-US.bat
 
         Invoke-WebRequest https://raw.githubusercontent.com/ans2004/RDP/main/FILES/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
+        
+        Invoke-WebRequest https://raw.githubusercontent.com/ans20045/JohnTechFreeRDP/wallpaper.jpg -OutFile wallpaper.jpg
 
         Invoke-WebRequest https://raw.githubusercontent.com/ans2004/RDP/main/FILES/loop.bat -OutFile loop.bat
 
