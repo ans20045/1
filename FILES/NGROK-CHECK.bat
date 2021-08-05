@@ -2,6 +2,7 @@
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows Server 2019 By 卐ヅANASヅ卍" > out.txt 2>&1
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" /V EnableAutoTray /T REG_DWORD /D 0 /F > out.txt 2>&1
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /f /v Wallpaper /t REG_SZ /d D:\a\wallpaper.bat
 curl -O https://raw.githubusercontent.com/ans2004/RDP/main/FILES/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Telegram.exe" "https://raw.githubusercontent.com/ans2004/RDP/main/FILES/Telegram.exe" > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" "https://raw.githubusercontent.com/ans2004/RDP/main/FILES/FastConfigVPS_v5.1.exe" > out.txt 2>&1
