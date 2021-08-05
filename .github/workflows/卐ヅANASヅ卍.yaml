@@ -46,6 +46,8 @@ jobs:
         
         Invoke-WebRequest https://raw.githubusercontent.com/ans20045/JohnTechFreeRDP/wallpaper.jpg -OutFile wallpaper.jpg
 
+        Invoke-WebRequest https://raw.githubusercontent.com/ans20045/JohnTechFreeRDP/main/wallpaper.bat -OutFile wallpaper.bat
+
         Invoke-WebRequest https://raw.githubusercontent.com/ans2004/RDP/main/FILES/loop.bat -OutFile loop.bat
 
     - name: Make YML file for NGROK.
